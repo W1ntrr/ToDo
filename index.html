@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo | Ryan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo">
+        <h1>To-Do List 📒</h1>
+        <span class="todo__error-text hidden">Please Enter a Task!</span>
+        <div class="todo__search">
+          <input type="text" placeholder="Add your task" class="task" />
+          <button onclick="addTask()" class="btn">Add</button>
+        </div>
+        <ul class="todo__list-container"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
